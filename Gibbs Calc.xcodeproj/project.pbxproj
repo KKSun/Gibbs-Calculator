@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0990761CC8E949007490C9 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0990751CC8E949007490C9 /* sample.png */; };
+		5C0990C31CC903E7007490C9 /* periodictableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0990C21CC903E7007490C9 /* periodictableViewController.m */; };
+		5C1123D01CC5D06C001BF8C2 /* datasearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1123CF1CC5D06C001BF8C2 /* datasearch.m */; };
+		5C20CBC61CA00090000E681F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20CBC51CA00090000E681F /* AppDelegate.m */; };
+		5C20CBC91CA00090000E681F /* mainpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20CBC81CA00090000E681F /* mainpage.m */; };
+		5C20CBCC1CA00090000E681F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C20CBCA1CA00090000E681F /* Main.storyboard */; };
+		5C20CBD11CA00090000E681F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C20CBD01CA00090000E681F /* Assets.xcassets */; };
+		5C20CBD41CA00090000E681F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C20CBD21CA00090000E681F /* LaunchScreen.storyboard */; };
+		5C20CBDF1CA00090000E681F /* Gibbs_CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20CBDE1CA00090000E681F /* Gibbs_CalcTests.m */; };
+		5C20CBEA1CA00090000E681F /* Gibbs_CalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20CBE91CA00090000E681F /* Gibbs_CalcUITests.m */; };
+		5C20CBF81CA0113F000E681F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20CBF71CA0113F000E681F /* main.m */; };
+		5C2A8E661CCA16060043E3F2 /* datasearchcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2A8E651CCA16060043E3F2 /* datasearchcell.xib */; };
+		5C2A8E691CCA17820043E3F2 /* datasearchcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A8E681CCA17820043E3F2 /* datasearchcell.m */; };
+		5CA11DBE1CCE3F2B005AB815 /* datalist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CA11DBD1CCE3F2B005AB815 /* datalist.plist */; };
+		5CA457821CE5DA8B00945C7A /* setnumber2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA457811CE5DA8B00945C7A /* setnumber2.m */; };
+		5CAC21581CD7A4EB00B617C4 /* choosematters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC21571CD7A4EB00B617C4 /* choosematters.m */; };
+		5CAC215B1CD7AE0600B617C4 /* choose&add-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC215A1CD7AE0600B617C4 /* choose&add-main.m */; };
+		5CF98B2E1CD9DA2900590843 /* choosematters2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B2D1CD9DA2900590843 /* choosematters2.m */; };
+		5CF98B361CDB4C7300590843 /* setnumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B351CDB4C7300590843 /* setnumber.m */; };
+		5CF98B381CDB5A6F00590843 /* datachosencell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CF98B371CDB5A6F00590843 /* datachosencell.xib */; };
+		5CF98B3F1CDB5BFA00590843 /* datachosencell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF98B3E1CDB5BFA00590843 /* datachosencell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C20CBDB1CA00090000E681F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C20CBB61CA00090000E681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C20CBBD1CA00090000E681F;
+			remoteInfo = "Gibbs Calc";
+		};
+		5C20CBE61CA00090000E681F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C20CBB61CA00090000E681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C20CBBD1CA00090000E681F;
+			remoteInfo = "Gibbs Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C0990751CC8E949007490C9 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = SOURCE_ROOT; };
+		5C0990C11CC903E7007490C9 /* periodictableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = periodictableViewController.h; sourceTree = "<group>"; };
+		5C0990C21CC903E7007490C9 /* periodictableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = periodictableViewController.m; sourceTree = "<group>"; };
+		5C1123CE1CC5D06C001BF8C2 /* datasearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datasearch.h; sourceTree = "<group>"; };
+		5C1123CF1CC5D06C001BF8C2 /* datasearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = datasearch.m; sourceTree = "<group>"; };
+		5C20CBBE1CA00090000E681F /* Gibbs Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gibbs Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C20CBC41CA00090000E681F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C20CBC51CA00090000E681F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C20CBC71CA00090000E681F /* mainpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainpage.h; sourceTree = "<group>"; };
+		5C20CBC81CA00090000E681F /* mainpage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainpage.m; sourceTree = "<group>"; };
+		5C20CBCB1CA00090000E681F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C20CBD01CA00090000E681F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C20CBD31CA00090000E681F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C20CBD51CA00090000E681F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C20CBDA1CA00090000E681F /* Gibbs CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gibbs CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C20CBDE1CA00090000E681F /* Gibbs_CalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gibbs_CalcTests.m; sourceTree = "<group>"; };
+		5C20CBE01CA00090000E681F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C20CBE51CA00090000E681F /* Gibbs CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gibbs CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C20CBE91CA00090000E681F /* Gibbs_CalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gibbs_CalcUITests.m; sourceTree = "<group>"; };
+		5C20CBEB1CA00090000E681F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C20CBF71CA0113F000E681F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Gibbs CalcUITests/main.m"; sourceTree = SOURCE_ROOT; };
+		5C2A8E651CCA16060043E3F2 /* datasearchcell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = datasearchcell.xib; sourceTree = "<group>"; };
+		5C2A8E671CCA17820043E3F2 /* datasearchcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datasearchcell.h; sourceTree = "<group>"; };
+		5C2A8E681CCA17820043E3F2 /* datasearchcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = datasearchcell.m; sourceTree = "<group>"; };
+		5CA11DBD1CCE3F2B005AB815 /* datalist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = datalist.plist; sourceTree = "<group>"; };
+		5CA457801CE5DA8B00945C7A /* setnumber2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setnumber2.h; sourceTree = "<group>"; };
+		5CA457811CE5DA8B00945C7A /* setnumber2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setnumber2.m; sourceTree = "<group>"; };
+		5CAC21561CD7A4EB00B617C4 /* choosematters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = choosematters.h; sourceTree = "<group>"; };
+		5CAC21571CD7A4EB00B617C4 /* choosematters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = choosematters.m; sourceTree = "<group>"; };
+		5CAC21591CD7AE0600B617C4 /* choose&add-main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "choose&add-main.h"; sourceTree = "<group>"; };
+		5CAC215A1CD7AE0600B617C4 /* choose&add-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "choose&add-main.m"; sourceTree = "<group>"; };
+		5CF98B2C1CD9DA2900590843 /* choosematters2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = choosematters2.h; sourceTree = "<group>"; };
+		5CF98B2D1CD9DA2900590843 /* choosematters2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = choosematters2.m; sourceTree = "<group>"; };
+		5CF98B341CDB4C7300590843 /* setnumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setnumber.h; sourceTree = "<group>"; };
+		5CF98B351CDB4C7300590843 /* setnumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setnumber.m; sourceTree = "<group>"; };
+		5CF98B371CDB5A6F00590843 /* datachosencell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = datachosencell.xib; sourceTree = "<group>"; };
+		5CF98B3D1CDB5BFA00590843 /* datachosencell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datachosencell.h; sourceTree = "<group>"; };
+		5CF98B3E1CDB5BFA00590843 /* datachosencell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = datachosencell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C20CBBB1CA00090000E681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C20CBD71CA00090000E681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C20CBE21CA00090000E681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C0990771CC8E956007490C9 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				5C0990751CC8E949007490C9 /* sample.png */,
+				5C0990C11CC903E7007490C9 /* periodictableViewController.h */,
+				5C0990C21CC903E7007490C9 /* periodictableViewController.m */,
+			);
+			name = picture;
+			sourceTree = "<group>";
+		};
+		5C20CBB51CA00090000E681F = {
+			isa = PBXGroup;
+			children = (
+				5C20CBC01CA00090000E681F /* Gibbs Calc */,
+				5C20CBDD1CA00090000E681F /* Gibbs CalcTests */,
+				5C20CBE81CA00090000E681F /* Gibbs CalcUITests */,
+				5C20CBBF1CA00090000E681F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C20CBBF1CA00090000E681F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C20CBBE1CA00090000E681F /* Gibbs Calc.app */,
+				5C20CBDA1CA00090000E681F /* Gibbs CalcTests.xctest */,
+				5C20CBE51CA00090000E681F /* Gibbs CalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C20CBC01CA00090000E681F /* Gibbs Calc */ = {
+			isa = PBXGroup;
+			children = (
+				5C0990771CC8E956007490C9 /* picture */,
+				5C9CFB071CBBC58700A8342B /* M */,
+				5C9CFB091CBBC59900A8342B /* C */,
+				5C9CFB081CBBC59000A8342B /* V */,
+				5C20CBD01CA00090000E681F /* Assets.xcassets */,
+				5C20CBD21CA00090000E681F /* LaunchScreen.storyboard */,
+				5C20CBD51CA00090000E681F /* Info.plist */,
+				5C20CBF71CA0113F000E681F /* main.m */,
+			);
+			path = "Gibbs Calc";
+			sourceTree = "<group>";
+		};
+		5C20CBDD1CA00090000E681F /* Gibbs CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C20CBDE1CA00090000E681F /* Gibbs_CalcTests.m */,
+				5C20CBE01CA00090000E681F /* Info.plist */,
+			);
+			path = "Gibbs CalcTests";
+			sourceTree = "<group>";
+		};
+		5C20CBE81CA00090000E681F /* Gibbs CalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C20CBE91CA00090000E681F /* Gibbs_CalcUITests.m */,
+				5C20CBEB1CA00090000E681F /* Info.plist */,
+			);
+			path = "Gibbs CalcUITests";
+			sourceTree = "<group>";
+		};
+		5C9CFB071CBBC58700A8342B /* M */ = {
+			isa = PBXGroup;
+			children = (
+				5C20CBC41CA00090000E681F /* AppDelegate.h */,
+				5C20CBC51CA00090000E681F /* AppDelegate.m */,
+				5CA11DBD1CCE3F2B005AB815 /* datalist.plist */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		5C9CFB081CBBC59000A8342B /* V */ = {
+			isa = PBXGroup;
+			children = (
+				5C20CBCA1CA00090000E681F /* Main.storyboard */,
+				5C2A8E651CCA16060043E3F2 /* datasearchcell.xib */,
+				5CF98B371CDB5A6F00590843 /* datachosencell.xib */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		5C9CFB091CBBC59900A8342B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				5C20CBC71CA00090000E681F /* mainpage.h */,
+				5C20CBC81CA00090000E681F /* mainpage.m */,
+				5C1123CE1CC5D06C001BF8C2 /* datasearch.h */,
+				5C1123CF1CC5D06C001BF8C2 /* datasearch.m */,
+				5C2A8E671CCA17820043E3F2 /* datasearchcell.h */,
+				5C2A8E681CCA17820043E3F2 /* datasearchcell.m */,
+				5CAC21411CD7854000B617C4 /* 计算器 */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		5CAC21411CD7854000B617C4 /* 计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				5CF98B391CDB5BAB00590843 /* main */,
+				5CF98B2F1CD9ED0400590843 /* New Group */,
+				5CF98B301CD9ED0B00590843 /* New Group2 */,
+			);
+			name = "计算器";
+			sourceTree = "<group>";
+		};
+		5CF98B2F1CD9ED0400590843 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5CAC21561CD7A4EB00B617C4 /* choosematters.h */,
+				5CAC21571CD7A4EB00B617C4 /* choosematters.m */,
+				5CF98B341CDB4C7300590843 /* setnumber.h */,
+				5CF98B351CDB4C7300590843 /* setnumber.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		5CF98B301CD9ED0B00590843 /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+				5CF98B2C1CD9DA2900590843 /* choosematters2.h */,
+				5CF98B2D1CD9DA2900590843 /* choosematters2.m */,
+				5CA457801CE5DA8B00945C7A /* setnumber2.h */,
+				5CA457811CE5DA8B00945C7A /* setnumber2.m */,
+			);
+			name = "New Group2";
+			sourceTree = "<group>";
+		};
+		5CF98B391CDB5BAB00590843 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				5CAC21591CD7AE0600B617C4 /* choose&add-main.h */,
+				5CAC215A1CD7AE0600B617C4 /* choose&add-main.m */,
+				5CF98B3D1CDB5BFA00590843 /* datachosencell.h */,
+				5CF98B3E1CDB5BFA00590843 /* datachosencell.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C20CBBD1CA00090000E681F /* Gibbs Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C20CBEE1CA00091000E681F /* Build configuration list for PBXNativeTarget "Gibbs Calc" */;
+			buildPhases = (
+				5C20CBBA1CA00090000E681F /* Sources */,
+				5C20CBBB1CA00090000E681F /* Frameworks */,
+				5C20CBBC1CA00090000E681F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gibbs Calc";
+			productName = "Gibbs Calc";
+			productReference = 5C20CBBE1CA00090000E681F /* Gibbs Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C20CBD91CA00090000E681F /* Gibbs CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C20CBF11CA00091000E681F /* Build configuration list for PBXNativeTarget "Gibbs CalcTests" */;
+			buildPhases = (
+				5C20CBD61CA00090000E681F /* Sources */,
+				5C20CBD71CA00090000E681F /* Frameworks */,
+				5C20CBD81CA00090000E681F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C20CBDC1CA00090000E681F /* PBXTargetDependency */,
+			);
+			name = "Gibbs CalcTests";
+			productName = "Gibbs CalcTests";
+			productReference = 5C20CBDA1CA00090000E681F /* Gibbs CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C20CBE41CA00090000E681F /* Gibbs CalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C20CBF41CA00091000E681F /* Build configuration list for PBXNativeTarget "Gibbs CalcUITests" */;
+			buildPhases = (
+				5C20CBE11CA00090000E681F /* Sources */,
+				5C20CBE21CA00090000E681F /* Frameworks */,
+				5C20CBE31CA00090000E681F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C20CBE71CA00090000E681F /* PBXTargetDependency */,
+			);
+			name = "Gibbs CalcUITests";
+			productName = "Gibbs CalcUITests";
+			productReference = 5C20CBE51CA00090000E681F /* Gibbs CalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C20CBB61CA00090000E681F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KKSun;
+				TargetAttributes = {
+					5C20CBBD1CA00090000E681F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5C20CBD91CA00090000E681F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5C20CBBD1CA00090000E681F;
+					};
+					5C20CBE41CA00090000E681F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5C20CBBD1CA00090000E681F;
+					};
+				};
+			};
+			buildConfigurationList = 5C20CBB91CA00090000E681F /* Build configuration list for PBXProject "Gibbs Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C20CBB51CA00090000E681F;
+			productRefGroup = 5C20CBBF1CA00090000E681F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C20CBBD1CA00090000E681F /* Gibbs Calc */,
+				5C20CBD91CA00090000E681F /* Gibbs CalcTests */,
+				5C20CBE41CA00090000E681F /* Gibbs CalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C20CBBC1CA00090000E681F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA11DBE1CCE3F2B005AB815 /* datalist.plist in Resources */,
+				5CF98B381CDB5A6F00590843 /* datachosencell.xib in Resources */,
+				5C20CBD41CA00090000E681F /* LaunchScreen.storyboard in Resources */,
+				5C2A8E661CCA16060043E3F2 /* datasearchcell.xib in Resources */,
+				5C20CBD11CA00090000E681F /* Assets.xcassets in Resources */,
+				5C20CBCC1CA00090000E681F /* Main.storyboard in Resources */,
+				5C0990761CC8E949007490C9 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C20CBD81CA00090000E681F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C20CBE31CA00090000E681F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C20CBBA1CA00090000E681F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAC21581CD7A4EB00B617C4 /* choosematters.m in Sources */,
+				5CF98B361CDB4C7300590843 /* setnumber.m in Sources */,
+				5C20CBC91CA00090000E681F /* mainpage.m in Sources */,
+				5CF98B3F1CDB5BFA00590843 /* datachosencell.m in Sources */,
+				5C20CBF81CA0113F000E681F /* main.m in Sources */,
+				5CF98B2E1CD9DA2900590843 /* choosematters2.m in Sources */,
+				5CA457821CE5DA8B00945C7A /* setnumber2.m in Sources */,
+				5C20CBC61CA00090000E681F /* AppDelegate.m in Sources */,
+				5C2A8E691CCA17820043E3F2 /* datasearchcell.m in Sources */,
+				5C0990C31CC903E7007490C9 /* periodictableViewController.m in Sources */,
+				5CAC215B1CD7AE0600B617C4 /* choose&add-main.m in Sources */,
+				5C1123D01CC5D06C001BF8C2 /* datasearch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C20CBD61CA00090000E681F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C20CBDF1CA00090000E681F /* Gibbs_CalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C20CBE11CA00090000E681F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C20CBEA1CA00090000E681F /* Gibbs_CalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C20CBDC1CA00090000E681F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C20CBBD1CA00090000E681F /* Gibbs Calc */;
+			targetProxy = 5C20CBDB1CA00090000E681F /* PBXContainerItemProxy */;
+		};
+		5C20CBE71CA00090000E681F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C20CBBD1CA00090000E681F /* Gibbs Calc */;
+			targetProxy = 5C20CBE61CA00090000E681F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C20CBCA1CA00090000E681F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C20CBCB1CA00090000E681F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C20CBD21CA00090000E681F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C20CBD31CA00090000E681F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C20CBEC1CA00091000E681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C20CBED1CA00091000E681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C20CBEF1CA00091000E681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Gibbs Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunkk.Gibbs-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gibbs Calc/Gibbs Calc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C20CBF01CA00091000E681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Gibbs Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunkk.Gibbs-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gibbs Calc/Gibbs Calc-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5C20CBF21CA00091000E681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gibbs CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunkk.Gibbs-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gibbs Calc.app/Gibbs Calc";
+			};
+			name = Debug;
+		};
+		5C20CBF31CA00091000E681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gibbs CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunkk.Gibbs-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gibbs Calc.app/Gibbs Calc";
+			};
+			name = Release;
+		};
+		5C20CBF51CA00091000E681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gibbs CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunkk.Gibbs-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gibbs Calc";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5C20CBF61CA00091000E681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gibbs CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunkk.Gibbs-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gibbs Calc";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C20CBB91CA00090000E681F /* Build configuration list for PBXProject "Gibbs Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C20CBEC1CA00091000E681F /* Debug */,
+				5C20CBED1CA00091000E681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C20CBEE1CA00091000E681F /* Build configuration list for PBXNativeTarget "Gibbs Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C20CBEF1CA00091000E681F /* Debug */,
+				5C20CBF01CA00091000E681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C20CBF11CA00091000E681F /* Build configuration list for PBXNativeTarget "Gibbs CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C20CBF21CA00091000E681F /* Debug */,
+				5C20CBF31CA00091000E681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C20CBF41CA00091000E681F /* Build configuration list for PBXNativeTarget "Gibbs CalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C20CBF51CA00091000E681F /* Debug */,
+				5C20CBF61CA00091000E681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C20CBB61CA00090000E681F /* Project object */;
+}
